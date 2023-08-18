@@ -1,7 +1,7 @@
 {
   "name": "use-upgrade",
-  "version": "0.0.1",
-  "description": "A tool to help you detect new versions of your websites.",
+  "version": "0.0.2",
+  "description": "A lib can auto detect new versions of your SPA website.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
