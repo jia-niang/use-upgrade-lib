@@ -1,6 +1,6 @@
 {
   "name": "use-upgrade",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lib can auto detect new versions of your SPA website.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -14,6 +14,13 @@
     "react hooks",
     "upgrade"
   ],
+  "bugs": {
+    "url": "https://github.com/jia-niang/use-upgrade/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jia-niang/use-upgrade"
+  },
   "author": "jia-niang <1@paperplane.cc>",
   "license": "MIT",
   "devDependencies": {
