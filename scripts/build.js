@@ -1,5 +1,5 @@
-const { exec } = require('child_process')
+const { execSync } = require('child_process')
 
-exec(`tsc --module umd --outDir dist`)
-exec(`tsc --module commonjs --outDir lib`)
-exec(`tsc --module esnext --outDir es`)
+execSync(`tsc --module umd --outDir dist`)
+execSync(`tsc --module commonjs --outDir lib`)
+execSync(`tsc --module esnext --outDir es`)
